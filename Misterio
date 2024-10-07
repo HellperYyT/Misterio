@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enigma Parte 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    img {
+      width: 500px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .clue {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Enigma</h1>
+  <p>Baixe a imagem abaixo e descubra o segredo escondido dentro dela.</p>
+  <img src="seu-link-da-imagem.png" alt="Imagem Enigmática">
+  <a href="seu-link-da-imagem.png" download>Baixar Imagem</a>
+  <p class="clue">"Às vezes, a resposta está nas entrelinhas."</p>
+</body>
+</html>
